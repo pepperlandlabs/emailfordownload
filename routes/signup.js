@@ -24,7 +24,7 @@ var signUpRoutes = {
         pre: [{ method: saveUser, assign: 'user' }],
         handler: function(request, reply) {
             //TODO: Handle user created but passport failure
-            //Realistically should never happen
+            // Realistically should never happen
 
             Passport.authenticate('local', {
                 successRedirect: config.urls.successRedirect,

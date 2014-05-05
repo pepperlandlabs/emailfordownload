@@ -45,7 +45,6 @@ var loginRoutes = {
 
         }));
 
-
         Passport.serializeUser(function (user, done) {
             done(null, user);
         });
