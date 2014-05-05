@@ -1,0 +1,19 @@
+{
+  "development": {
+    "driver": "mysql",
+    "user": "root",
+    "database": "widgets_core"
+  },
+ 
+  "test": {
+    "driver": "mysql",
+    "user": "root",
+    "database": "widgets_core_test"
+  },
+ 
+  "production": {
+    "driver": "mysql",
+    "user": "root",
+    "database": "widgets_core"
+  }
+}

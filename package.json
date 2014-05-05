@@ -1,0 +1,30 @@
+{
+  "name": "music-widgets",
+  "version": "0.1.0",
+  "description": "All the music widgets. Well kinda.",
+  "main": "index.js",
+  "scripts": {
+    "createDb": "mysql -u root -e 'create database widgets_core'; ",
+    "dbFixtures": "db-migrate up -m ./db/migrations --config ./db/config/index.json -e development"
+  },
+  "keywords": [
+    ""
+  ],
+  "author": "Chase Farmer",
+  "dependencies": {
+    "hapi": "~2.1.2",
+    "handlebars": "~2.0.0-alpha.2",
+    "sequelize": "~1.7.0",
+    "passport-local": "~1.0.0",
+    "travelogue": "~1.1.0",
+    "yar": "~1.1.0",
+    "passport": "~0.2.0"
+  },
+  "devDependencies": {
+    "db-migrate": "*",
+    "mysql": "*",
+    "grunt-cli": "~0.1.9",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-sass": "~0.11.0"
+  }
+}

@@ -1,0 +1,20 @@
+.login-main {
+    width: 50%;
+    margin: 0 auto;
+
+    .login-form {
+
+        input {
+            font-size: 14px;
+            border: 0;
+            border-bottom: 1px solid #000;
+            height: 25px;
+            width: 100%;
+            margin: 10px 0;
+        }
+
+        .black {
+            margin-top: 20px;
+        }
+    }
+}

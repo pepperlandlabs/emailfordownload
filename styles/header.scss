@@ -1,0 +1,58 @@
+header {
+    width: 100%;
+    background-color: #000;
+    border-top: 5px solid red;
+    height: 50px;
+    color: #FFF;
+    margin-bottom: 20px;
+
+    .logo {
+        margin: 17px;
+        float: left;
+    }
+
+    .user-state {
+        float: right;
+    }
+
+    nav {
+        padding: 17px;
+
+        &.logged-out {
+
+            .login {
+                padding-right: 5px;
+                
+            }
+            .signup {
+                padding-left: 10px;
+                border-left: 1px dotted red;
+            }
+        }
+
+        &.logged-in {
+            padding: 10px 17px 7px 17px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: red;
+            }
+
+            .profile-picture {
+                display: inline-block;
+                margin: 0 10px 0 0;
+                background-color: #FFF;
+                border-radius: 50%;
+                border: 0;
+                height: 30px;
+                width: 30px;
+            }
+            .username {
+                display: inline-block;
+                vertical-align: top;
+                margin-top: 6px;
+            }
+        }
+    }
+
+}

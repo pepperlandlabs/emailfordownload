@@ -1,0 +1,23 @@
+<header>
+
+    <div class="logo">
+        <a href="/"> widget eyes </a>
+    </div>
+
+    <div class="user-state">
+        {{#if user}}
+            <nav class="user logged-in">
+                <img class="profile-picture" src="#" />
+                <div class="username">
+                    {{ user.username }}
+                </div>
+            </nav>
+        {{else}}
+            <nav class="user logged-out">
+                <a class="login" href="/log-in">Log In</a>
+                <a class="signup" href="/sign-up">Sign Up</a>
+            </nav>
+        {{/if}}
+    </div>
+
+</header>

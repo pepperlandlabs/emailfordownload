@@ -1,0 +1,25 @@
+.signup-main {
+    width: 50%;
+    margin: 0 auto;
+
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .signup-form {
+
+        input {
+            font-size: 14px;
+            border: 0;
+            border-bottom: 1px solid #000;
+            height: 25px;
+            width: 100%;
+            margin: 10px 0;
+        }
+
+        .black {
+            margin-top: 20px;
+        }
+    }
+}
